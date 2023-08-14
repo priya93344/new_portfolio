@@ -1,0 +1,239 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(0, 0, 1);
+
+}
+.head
+{
+   
+margin-top: 1px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+    width:  100%;
+    
+    z-index: 600;
+    animation: pk 3s infinite;
+    background-color: #060008;
+    
+}
+@keyframes pk
+{
+    100%
+    {
+        margin-top: 1px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+    width:  100%;
+    
+    z-index: 600;
+    animation: pk 3s infinite;
+    background-color: #060008;
+
+    }
+    80%
+    {
+        margin-top: 1px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+    width:  100%;
+    
+    z-index: 600;
+    animation: pk 3s infinite;
+    background-color: #060008;
+    box-shadow:  0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;
+
+    }
+}
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+.logo:hover{
+    background-color: #0c0c0c;
+    box-shadow:  0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;
+    padding: 10px 10px;
+   
+    
+}
+.home
+{
+    margin-left: 40px;
+    
+}
+.navi nav a
+{
+    padding: 6px 15px;
+    text-decoration: none;
+    color:#ff1493;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+display: inline;
+
+transition: .3s;
+}
+.navi nav a:hover{
+   
+    color: #fff;
+    background-color: #060008;
+    box-shadow: 0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;
+}
+.sec
+{
+position: relative;
+width: 100%;
+justify-content: space-between;
+height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+padding: 70px 10% 0;
+
+
+}
+.butn{
+    display: inline-block;
+    padding: 32px 28px;
+    background:#060008;
+    border-radius: 40px;
+    font-size: 19px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 200;
+    transition: .3s;
+
+}
+.butn:hover
+{
+    box-shadow: 0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;
+    
+color: #ff1493;
+}
+.sci a{
+
+
+    display: inline-block;
+    padding: 10px 10px;
+    background:#060008;
+    border-radius:90px;
+    font-size: 19px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 200;
+    transition: .3s;
+    display: inline-block;
+    
+   
+}
+.sci a:hover{
+
+    box-shadow: 0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;
+    
+color: #ff1493;
+    
+}
+img
+{
+   margin-left: 0;
+   margin-right: 50px;
+   padding: 10px 10px;
+   height: 70%;
+   width: 40%;
+   border: 10px solid #ff44cc;
+   border-radius: 50%;
+   transition: .5s;
+   animation: buff 3s infinite ease-in-out;
+
+}
+@keyframes buff
+{
+    100%{
+        margin-left: 0;
+        margin-right: 50px;
+        padding: 10px 10px;
+        height: 70%;
+        width: 40%;
+        border: 10px solid #ff44cc;
+        border-radius: 50%;
+        transition: .5s;
+        animation: buff 3s infinite ease-in-out;
+
+    }
+    80%{
+    box-shadow: 0 0 15px #ff44cc,
+    0 0 10px #ff1493, 0 0 15px #ff44cc,
+    0 0 10px #ff44cc, 0 0 15px #ff1493;;
+    border: 25px solid transparent;
+    opacity: 80%;
+    size: 80%; }
+}
+.home h2 span
+{
+    color: #ff1493;
+}
+
+.home h1{
+   
+    font-size: 40px;
+    -webkit-text-stroke: -5px #fff;
+    color: transparent;
+    background-image: linear-gradient(#ff1493, #ff1493);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -520px 0;
+    animation: animateText 3s linear infinite ;
+}
+@keyframes animateText
+{
+    0%, 95%,100%{
+        background-position: -520px 0;
+    }
+    85%, 85%
+    {
+        background-position: 0 0;
+    }
+}
+.home p{
+    color: #ea00ff;
+    
+}
